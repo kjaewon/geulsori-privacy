@@ -1,100 +1,148 @@
-<!doctype html>
+<!DOCTYPE html>
+<!-- next2great-legal 에서 생성한 문서입니다. 직접 고치지 말고 apps/geulsori/policy.md 를 고친 뒤 다시 생성하세요. -->
 <html lang="ko">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>소리한편 개인정보처리방침</title>
-<meta name="description" content="소리한편(Sorihanpyeon) Android 앱의 개인정보처리방침입니다.">
-<meta name="robots" content="index, follow">
-<meta property="og:title" content="소리한편 개인정보처리방침">
-<meta property="og:description" content="소리한편(Sorihanpyeon) Android 앱의 개인정보처리방침입니다.">
-<meta property="og:type" content="article">
 <style>
-:root {
-  color-scheme: dark light;
-  --bg: #0E131D;
-  --surface: #1B212C;
-  --text: #E8DCC4;
-  --muted: #A4A9B5;
-  --accent: #C5A059;
-}
-@media (prefers-color-scheme: light) {
-  :root { --bg: #FBF8F1; --surface: #FFFFFF; --text: #23282F; --muted: #5A606B; --accent: #8A6A2F; }
-}
-* { box-sizing: border-box; }
-body {
-  margin: 0;
-  padding: 2.5rem 1.25rem 4rem;
-  background: var(--bg);
-  color: var(--text);
-  font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Noto Sans KR",
-    "Malgun Gothic", sans-serif;
-  line-height: 1.75;
-  word-break: keep-all;
-}
-main { max-width: 44rem; margin: 0 auto; }
-h1 { font-size: 1.75rem; line-height: 1.35; margin: 0 0 0.5rem; }
-h2 {
-  font-size: 1.15rem;
-  margin: 2.5rem 0 0.75rem;
-  padding-top: 1.25rem;
-  border-top: 1px solid color-mix(in srgb, var(--muted) 28%, transparent);
-  color: var(--accent);
-}
-h2:first-of-type { border-top: 0; padding-top: 0; }
-p, li { color: var(--text); }
-ul { padding-left: 1.25rem; }
-li { margin: 0.35rem 0; }
-a { color: var(--accent); }
-code {
-  background: var(--surface);
-  padding: 0.1em 0.4em;
-  border-radius: 4px;
-  font-size: 0.9em;
-  word-break: break-all;
-}
-.effective { color: var(--muted); font-size: 0.95rem; margin-bottom: 2rem; }
-footer { margin-top: 3rem; color: var(--muted); font-size: 0.85rem; }
+  :root {
+    color-scheme: light dark;
+    --bg: #ffffff;
+    --fg: #1c1b1f;
+    --muted: #5f5e62;
+    --rule: #e2e0e4;
+    --accent: #C5A059;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #141218;
+      --fg: #e6e1e6;
+      --muted: #a9a5ab;
+      --rule: #3a383e;
+      --accent: #8A6A2F;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Apple SD Gothic Neo",
+      "Noto Sans KR", "Malgun Gothic", sans-serif;
+    line-height: 1.7;
+    word-break: keep-all;
+    overflow-wrap: anywhere;
+  }
+  main { max-width: 720px; margin: 0 auto; padding: 48px 24px 96px; }
+  h1 { font-size: 1.6rem; margin: 0 0 4px; }
+  .effective-date { color: var(--muted); font-size: 0.95rem; margin: 0 0 32px; }
+  h2 { font-size: 1.15rem; margin: 40px 0 12px; padding-bottom: 8px; border-bottom: 1px solid var(--rule); }
+  h3 { font-size: 1.02rem; margin: 28px 0 8px; }
+  p, li { font-size: 1rem; }
+  ul, ol { padding-left: 1.3em; }
+  li + li { margin-top: 6px; }
+  a { color: var(--accent); }
+  code { font-size: 0.92em; }
+  table { border-collapse: collapse; width: 100%; margin: 12px 0; font-size: 0.95rem; }
+  th, td { border: 1px solid var(--rule); padding: 6px 10px; text-align: left; vertical-align: top; }
+  footer { margin-top: 48px; padding-top: 16px; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
 </style>
 </head>
 <body>
 <main>
-<h1>소리한편 개인정보처리방침</h1>
-<p class="effective">시행일: 2026년 9월 1일</p>
-<p>소리한편(<code>com.next2great.geulsori</code>, 이하 “앱”)는 문학 작품을 읽고 듣고 연습할 수 있는 Android 앱입니다. 앱 운영자는 이용자의 개인정보를 최소한으로 처리하고, 앱이 직접 운영하는 서버로 개인정보를 전송하지 않는 것을 원칙으로 합니다.</p>
+  <h1>소리한편 개인정보처리방침</h1>
+  <p class="effective-date">시행일: 2026년 9월 1일 · 개정일: 2026년 10월 4일</p>
+
+<p>소리한편(<code>com.next2great.geulsori</code>, 이하 “앱”)는 문학 작품을 읽고 듣고 연습할 수 있는
+Android 앱입니다. 앱 운영자는 이용자의 개인정보를 최소한으로 처리하고, 앱이 직접
+운영하는 서버로 개인정보를 전송하지 않는 것을 원칙으로 합니다.</p>
 <h2>1. 수집·처리하는 정보</h2>
-<p>앱은 회원가입 기능이 없으며 이름, 이메일 주소, 전화번호 또는 정확한 위치정보를 수집하지 않습니다. 앱 운영자가 직접 운영하는 서버도 없습니다.</p>
-<p>다만 앱은 목록 화면에 광고를 노출하기 위해 <strong>Google AdMob</strong>을 사용합니다. 광고 제공을 위해 Google이 광고 식별자와 기기·앱 정보를 처리합니다. 자세한 내용은 아래 3항을 참고하세요. 별도의 분석 SDK는 사용하지 않습니다.</p>
+<p>앱은 회원가입 기능이 없으며 이름, 이메일 주소, 전화번호 또는 정확한 위치정보를 수집하지
+않습니다. 앱 운영자가 직접 운영하는 서버도 없습니다.</p>
+<p>다만 앱은 목록 화면에 광고를 노출하기 위해 <strong>Google AdMob</strong>을 사용합니다. 광고 제공을 위해
+Google이 광고 식별자와 기기·앱 정보를 처리합니다. 자세한 내용은 아래 3항을 참고하세요.
+별도의 분석 SDK는 사용하지 않습니다.</p>
 <p>이용자가 기능을 사용할 때 다음 정보가 기기 안에서 처리될 수 있습니다.</p>
-<ul><li>즐겨찾기, 감상 이력과 재생 위치, 읽기·낭독 설정</li><li>낭독 연습을 위해 이용자가 직접 녹음한 음성 파일과 연습 초안</li><li>오류 진단을 위한 앱 내부 상태 로그(기기의 시스템 로그에 일시적으로 기록될 수 있음)</li></ul>
+<ul>
+<li>즐겨찾기, 감상 이력과 재생 위치, 읽기·낭독 설정</li>
+<li>낭독 연습을 위해 이용자가 직접 녹음한 음성 파일과 연습 초안</li>
+<li>오류 진단을 위한 앱 내부 상태 로그(기기의 시스템 로그에 일시적으로 기록될 수 있음)</li>
+</ul>
 <p>이 정보는 앱 운영자의 서버로 업로드되지 않습니다.</p>
 <h2>2. 마이크 권한과 음성 녹음</h2>
-<p>마이크 권한은 이용자가 낭독 연습의 녹음 기능을 실행할 때만 요청합니다. 녹음 파일은 기기 내 앱 전용 저장공간에 보관되며 앱이 자동으로 전송하지 않습니다. 녹음 파일과 연습 초안은 Android의 클라우드 백업 및 기기 간 전송 대상에서 제외하도록 설정되어 있습니다.</p>
+<p>마이크 권한은 이용자가 낭독 연습의 녹음 기능을 실행할 때만 요청합니다. 녹음 파일은
+기기 내 앱 전용 저장공간에 보관되며 앱이 자동으로 전송하지 않습니다. 녹음 파일과
+연습 초안은 Android의 클라우드 백업 및 기기 간 전송 대상에서 제외하도록 설정되어
+있습니다.</p>
 <h2>3. 광고</h2>
-<p>앱은 홈 화면과 탐색 화면의 <strong>목록 사이에만</strong> 광고를 노출합니다. 작품을 읽고 듣는 재생 화면과 산문 읽기 화면에는 광고를 넣지 않습니다.</p>
-<p>설정에서 보상형 광고를 끝까지 시청하면 광고 제거 만료 시각을 기기에 저장하고, 이후 24시간 동안 홈·탐색 광고를 숨깁니다. 이 만료 시각은 앱 내부 기능을 위한 로컬 설정이며 운영자에게 전송되지 않습니다. 광고 시청이 완료되기 전에는 광고 제거가 적용되지 않습니다.</p>
-<p>광고는 Google AdMob이 제공하며, 광고를 요청하고 표시하는 과정에서 Google이 다음과 같은 정보를 수집·처리할 수 있습니다.</p>
-<ul><li>광고 식별자(Advertising ID)</li><li>기기 종류, 운영체제 버전, 화면 크기, 대략적인 지역 등 기기 정보</li><li>광고 노출·클릭 등 광고 상호작용 기록</li><li>IP 주소</li></ul>
-<p>이 정보는 <strong>Google이 처리하며 앱 운영자는 수집하거나 보관하지 않습니다.</strong> 앱 운영자는 집계된 실적 통계만 확인합니다. Google의 처리 내용은 <a href="https://policies.google.com/technologies/ads" rel="noopener">Google 광고 관련 개인정보처리방침</a>과 <a href="https://policies.google.com/privacy" rel="noopener">Google 개인정보처리방침</a>에서 확인할 수 있습니다.</p>
-<p>광고 요청을 위해 앱에 인터넷 접근 권한(<code>INTERNET</code>)과 광고 식별자 접근 권한 (<code>com.google.android.gms.permission.AD_ID</code>)이 포함되어 있습니다. <strong>작품 본문, 낭독 음성, 녹음 파일, 필사 초안은 광고와 무관하며 광고 요청에 포함되지 않습니다.</strong></p>
-<p>이용자는 Android 설정에서 광고 ID를 초기화하거나 삭제할 수 있습니다. 설정 앱 → 개인정보 보호 → 광고에서 변경할 수 있으며, 광고 ID를 삭제하면 맞춤 광고가 제공되지 않습니다.</p>
+<p>앱은 홈 화면과 탐색 화면의 <strong>목록 사이에만</strong> 광고를 노출합니다. 작품을 읽고 듣는 재생
+화면과 산문 읽기 화면에는 광고를 넣지 않습니다.</p>
+<p>설정에서 보상형 광고를 끝까지 시청하면 광고 제거 만료 시각을 기기에 저장하고, 이후 24시간
+동안 홈·탐색 광고를 숨깁니다. 이 만료 시각은 앱 내부 기능을 위한 로컬 설정이며 운영자에게
+전송되지 않습니다. 광고 시청이 완료되기 전에는 광고 제거가 적용되지 않습니다.</p>
+<p>광고는 Google AdMob이 제공하며, 광고를 요청하고 표시하는 과정에서 Google이 다음과 같은
+정보를 수집·처리할 수 있습니다.</p>
+<ul>
+<li>광고 식별자(Advertising ID)</li>
+<li>기기 종류, 운영체제 버전, 화면 크기, 대략적인 지역 등 기기 정보</li>
+<li>광고 노출·클릭 등 광고 상호작용 기록</li>
+<li>IP 주소</li>
+</ul>
+<p>이 정보는 <strong>Google이 처리하며 앱 운영자는 수집하거나 보관하지 않습니다.</strong> 앱 운영자는
+집계된 실적 통계만 확인합니다. Google의 처리 내용은
+<a href="https://policies.google.com/technologies/ads">Google 광고 관련 개인정보처리방침</a>과
+<a href="https://policies.google.com/privacy">Google 개인정보처리방침</a>에서 확인할 수 있습니다.</p>
+<p>광고 요청을 위해 앱에 인터넷 접근 권한(<code>INTERNET</code>)과 광고 식별자 접근 권한
+(<code>com.google.android.gms.permission.AD_ID</code>)이 포함되어 있습니다. <strong>작품 본문, 낭독 음성,
+녹음 파일, 필사 초안은 광고와 무관하며 광고 요청에 포함되지 않습니다.</strong></p>
+<p>이용자는 Android 설정에서 광고 ID를 초기화하거나 삭제할 수 있습니다.
+설정 앱 → 개인정보 보호 → 광고에서 변경할 수 있으며, 광고 ID를 삭제하면 맞춤 광고가
+제공되지 않습니다.</p>
 <p>유럽경제지역·영국·스위스 이용자에게는 관련 법령에 따른 동의 절차를 별도로 제공합니다.</p>
 <h2>4. 음성 합성(TTS)</h2>
-<p>내장 Supertonic 음성이 사용될 때 음성 합성은 기기 안에서 수행됩니다. Android 기본 TTS를 선택한 경우뿐 아니라 내장 모델이 준비되지 않았거나 합성에 실패한 경우, 내장 엔진이 지원하지 않는 언어를 읽는 경우에도 기기에 설치된 TTS 제공자가 텍스트를 처리합니다. 제공자의 설정에 따라 텍스트가 해당 제공자의 서버로 전송될 수 있습니다. 이 경우 해당 TTS 제공자의 개인정보처리방침과 설정이 적용됩니다.</p>
-<p>Google Play 배포용 빌드는 설정 화면에서 다운로드 용량을 확인하고 이용자가 다운로드를 선택하면 Google Play를 통해 음성 모델 파일을 받습니다. 이 통신에는 Google의 정책이 적용되고 데이터 요금이 발생할 수 있습니다. 모델 다운로드는 녹음이나 작품 텍스트를 업로드하는 기능이 아닙니다. 모델을 포함한 개발용 빌드는 이 다운로드 절차를 사용하지 않습니다. 다운로드 후 내장 음성 합성에는 네트워크가 필요하지 않습니다.</p>
-<p>앱의 낭독 음성은 AI·음성 합성 엔진이 만든 음성입니다. 이용자의 녹음을 음성 복제나 AI 학습 용도로 전송하지 않습니다.</p>
+<p>내장 Supertonic 음성이 사용될 때 음성 합성은 기기 안에서 수행됩니다. Android 기본
+TTS를 선택한 경우뿐 아니라 내장 모델이 준비되지 않았거나 합성에 실패한 경우, 내장 엔진이
+지원하지 않는 언어를 읽는 경우에도 기기에 설치된 TTS 제공자가 텍스트를 처리합니다.
+제공자의 설정에 따라 텍스트가 해당 제공자의 서버로 전송될 수 있습니다. 이 경우 해당
+TTS 제공자의 개인정보처리방침과 설정이 적용됩니다.</p>
+<p>Google Play 배포용 빌드는 설정 화면에서 다운로드 용량을 확인하고 이용자가 다운로드를
+선택하면 Google Play를 통해 음성 모델 파일을 받습니다. 이 통신에는 Google의 정책이
+적용되고 데이터 요금이 발생할 수 있습니다. 모델 다운로드는 녹음이나 작품 텍스트를
+업로드하는 기능이 아닙니다. 모델을 포함한 개발용 빌드는 이 다운로드 절차를 사용하지 않습니다.
+다운로드 후 내장 음성 합성에는 네트워크가 필요하지 않습니다.</p>
+<p>앱의 낭독 음성은 AI·음성 합성 엔진이 만든 음성입니다. 이용자의 녹음을 음성 복제나
+AI 학습 용도로 전송하지 않습니다.</p>
 <h2>5. 공유와 외부 앱</h2>
-<p>이용자가 공유 기능을 직접 실행하면 Android 공유 선택창을 통해 선택한 외부 앱으로 작품 정보 또는 이용자가 만든 파일이 전달될 수 있습니다. 전달 이후에는 선택한 외부 앱의 개인정보처리방침이 적용됩니다. 앱은 이용자의 명시적인 공유 동작 없이 파일을 외부로 전송하지 않습니다.</p>
-<p>개인정보처리방침, 작품 출처와 제3자 이용 조건 링크는 외부 브라우저에서 GitHub 등 해당 웹사이트를 열어 표시합니다. 이때 웹사이트와 브라우저가 접속 정보 등을 각자의 정책에 따라 처리할 수 있습니다.</p>
+<p>이용자가 공유 기능을 직접 실행하면 Android 공유 선택창을 통해 선택한 외부 앱으로 작품
+정보 또는 이용자가 만든 파일이 전달될 수 있습니다. 전달 이후에는 선택한 외부 앱의
+개인정보처리방침이 적용됩니다. 앱은 이용자의 명시적인 공유 동작 없이 파일을 외부로
+전송하지 않습니다.</p>
+<p>개인정보처리방침, 작품 출처와 제3자 이용 조건 링크는 외부 브라우저에서 GitHub 등 해당
+웹사이트를 열어 표시합니다. 이때 웹사이트와 브라우저가 접속 정보 등을 각자의 정책에
+따라 처리할 수 있습니다.</p>
 <h2>6. Android 백업</h2>
-<p>녹음 파일과 연습 초안은 Android 클라우드 백업과 기기 간 전송에서 제외됩니다. 즐겨찾기, 감상 이력 및 일부 설정은 이용자의 Android 백업 설정에 따라 운영체제의 백업 대상이 될 수 있습니다. 이 백업은 앱 운영자가 아닌 Android 및 이용자의 백업 제공자가 관리합니다.</p>
+<p>녹음 파일과 연습 초안은 Android 클라우드 백업과 기기 간 전송에서 제외됩니다. 즐겨찾기,
+감상 이력 및 일부 설정은 이용자의 Android 백업 설정에 따라 운영체제의 백업 대상이 될
+수 있습니다. 이 백업은 앱 운영자가 아닌 Android 및 이용자의 백업 제공자가 관리합니다.</p>
 <h2>7. 보유 기간과 삭제</h2>
-<p>기기 안의 정보는 이용자가 해당 기능에서 삭제하거나 앱 데이터를 지우거나 앱을 제거할 때까지 보관될 수 있습니다. 앱 데이터 삭제 또는 앱 제거 시 앱 전용 저장공간의 정보는 삭제됩니다. 이용자가 외부 앱으로 공유하거나 내보낸 사본은 해당 외부 앱에서 별도로 삭제해야 합니다.</p>
+<p>기기 안의 정보는 이용자가 해당 기능에서 삭제하거나 앱 데이터를 지우거나 앱을 제거할
+때까지 보관될 수 있습니다. 앱 데이터 삭제 또는 앱 제거 시 앱 전용 저장공간의 정보는
+삭제됩니다. 이용자가 외부 앱으로 공유하거나 내보낸 사본은 해당 외부 앱에서 별도로
+삭제해야 합니다.</p>
 <h2>8. 아동의 개인정보</h2>
-<p>앱은 아동의 개인정보를 의도적으로 수집하거나 운영자의 서버로 전송하지 않습니다. 보호자는 기기의 마이크 권한, TTS 제공자 및 백업 설정을 함께 확인할 수 있습니다.</p>
+<p>앱은 아동의 개인정보를 의도적으로 수집하거나 운영자의 서버로 전송하지 않습니다.
+보호자는 기기의 마이크 권한, TTS 제공자 및 백업 설정을 함께 확인할 수 있습니다.</p>
 <h2>9. 방침 변경과 문의</h2>
-<p>앱 기능 또는 관련 법령이 변경되면 이 문서를 개정하고 시행일을 갱신합니다. 개인정보 보호 관련 문의는 <a href="https://github.com/kjaewon/geulsori-privacy/issues" rel="noopener">소리한편 개인정보처리방침 저장소의 Issues</a>에 남길 수 있습니다. 운영자 계정은 <code>kjaewon</code>입니다. Issues는 공개 게시판이므로 개인정보나 녹음 파일을 게시하지 마세요. Google Play 관련 처리는 <a href="https://policies.google.com/privacy" rel="noopener">Google 개인정보처리방침</a>, GitHub 접속은 <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" rel="noopener">GitHub 개인정보처리방침</a>을 참고할 수 있습니다.</p>
-<footer>이 문서는 <code>docs/privacy-policy-ko.md</code> 에서 자동 생성됩니다. 직접 고치지 마세요.</footer>
+<p>앱 기능 또는 관련 법령이 변경되면 이 문서를 개정하고 시행일을 갱신합니다. 개인정보 보호
+관련 문의는 이메일(<a href="mailto:next2great.dev@gmail.com">next2great.dev@gmail.com</a>)로 보낼 수 있습니다. Google Play 관련 처리는 <a href="https://policies.google.com/privacy">Google 개인정보처리방침</a>,
+GitHub 접속은 <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub 개인정보처리방침</a>을
+참고할 수 있습니다.</p>
+
+  <footer>
+    소리한편 &middot; <code>com.next2great.geulsori</code> &middot;
+    <a href="https://github.com/kjaewon/geulsori-privacy/blob/main/PRIVACY.md">원문 마크다운 보기</a>
+  </footer>
 </main>
 </body>
 </html>

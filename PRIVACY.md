@@ -1,7 +1,6 @@
 # 소리한편 개인정보처리방침
 
-시행일: 2026년 9월 1일
-
+시행일: 2026년 9월 1일 · 개정일: 2026년 10월 4일
 소리한편(`com.next2great.geulsori`, 이하 “앱”)는 문학 작품을 읽고 듣고 연습할 수 있는
 Android 앱입니다. 앱 운영자는 이용자의 개인정보를 최소한으로 처리하고, 앱이 직접
 운영하는 서버로 개인정보를 전송하지 않는 것을 원칙으로 합니다.
@@ -111,9 +110,6 @@ AI 학습 용도로 전송하지 않습니다.
 ## 9. 방침 변경과 문의
 
 앱 기능 또는 관련 법령이 변경되면 이 문서를 개정하고 시행일을 갱신합니다. 개인정보 보호
-관련 문의는 [소리한편 개인정보처리방침 저장소의 Issues](https://github.com/kjaewon/geulsori-privacy/issues)에
-남길 수 있습니다.
-운영자 계정은 `kjaewon`입니다. Issues는 공개 게시판이므로 개인정보나 녹음 파일을
-게시하지 마세요. Google Play 관련 처리는 [Google 개인정보처리방침](https://policies.google.com/privacy),
+관련 문의는 이메일([next2great.dev@gmail.com](mailto:next2great.dev@gmail.com))로 보낼 수 있습니다. Google Play 관련 처리는 [Google 개인정보처리방침](https://policies.google.com/privacy),
 GitHub 접속은 [GitHub 개인정보처리방침](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement)을
 참고할 수 있습니다.
